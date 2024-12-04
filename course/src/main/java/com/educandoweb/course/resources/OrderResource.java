@@ -14,7 +14,7 @@ import com.educandoweb.course.services.OrderService;
 
 @RestController
 @RequestMapping(value = "/orders")
-public class OrderResource2 {
+public class OrderResource {
 	@Autowired
 	private OrderService sevice;
 	
